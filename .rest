@@ -42,4 +42,46 @@ Content-Type: application/json
 DELETE http://localhost:8080/Hospital/652a4ec6024f461d1bc62c04
 
 
+###
+GET https://project5-l35t.onrender.com/Hospital
+
+###
+GET https://project5-l35t.onrender.com/Hospital/652a4d840e927d6b6bfc0811
+
+###
+###create contact
+POST /Hospital HTTP/1.1
+Host:project5-l35t.onrender.com
+Content-Type: application/json
+
+{
+  "Full_names": "Douglas Ramirez",
+  "years": 22,
+  "number": 102,
+  "entry_date": "2023-11-08",
+  "disease": "Fiebre",
+  "Doctor_charge": "Dr. Turner",
+  "Day_in_hospital": 13,
+  "Number_room": 3
+}
+
+### contact 
+
+PUT /Hospital/652a4d840e927d6b6bfc0811 HTTP/1.1
+Host: project5-l35t.onrender.com
+Content-Type: application/json
+
+{
+  "Full_names": "Juan Pérez",
+  "years": 79,
+  "number": 200,
+  "entry_date": "2023-10-14",
+  "disease": "Gripe",
+  "Doctor_charge": "Dr. Smith",
+  "Day_in_hospital": 9,
+  "Number_room": 2
+}
+
+### delete contact 
+DELETE https://project5-l35t.onrender.com/Hospital/652a4ec6024f461d1bc62c04
 

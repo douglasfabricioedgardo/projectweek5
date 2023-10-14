@@ -20,7 +20,6 @@ const getSingle = async (req, res) => {
 
 const createHospital = async (req, res) => {
   const Hospital = {
-    id: req.body.id,
     Full_names: req.body.Full_names,
     years: req.body.years,
     number: req.body.number,
@@ -41,7 +40,6 @@ const updateHospital = async (req, res) => {
   const userId = new ObjectId(req.params.id);
   // be aware of updateOne if you only want to update specific fields
   const Hospital = {
-    id: req.body.id,
     Full_names: req.body.Full_names,
     years: req.body.years,
     number: req.body.number,
