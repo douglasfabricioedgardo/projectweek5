@@ -1,0 +1,103 @@
+[
+    {
+      "Full_names": "Juan Pérez",
+      "years": 45,
+      "number": 203,
+      "entry_date": "2023-10-14",
+      "disease": "Gripe",
+      "Doctor_charge": "Dr. Smith",
+      "Day_in_hospital": 5,
+      "Number_room": 2
+    },
+    {
+      "Full_names": "Ana Sánchez",
+      "years": 32,
+      "number": 305,
+      "entry_date": "2023-10-10",
+      "disease": "Fractura de pierna",
+      "Doctor_charge": "Dr. Johnson",
+      "Day_in_hospital": 8,
+      "Number_room": 3
+    },
+    {
+      "Full_names": "María Rodríguez",
+      "years": 60,
+      "number": 101,
+      "entry_date": "2023-10-12",
+      "disease": "Hipertensión",
+      "Doctor_charge": "Dr. Davis",
+      "Day_in_hospital": 3,
+      "Number_room": 1
+    },
+    {
+      "Full_names": "Carlos Gómez",
+      "years": 28,
+      "number": 402,
+      "entry_date": "2023-10-15",
+      "disease": "Apendicitis",
+      "Doctor_charge": "Dr. Wilson",
+      "Day_in_hospital": 2,
+      "Number_room": 4
+    },
+    {
+      "Full_names": "Sofía López",
+      "years": 52,
+      "number": 202,
+      "entry_date": "2023-10-09",
+      "disease": "Neumonía",
+      "Doctor_charge": "Dr. Lee",
+      "Day_in_hospital": 7,
+      "Number_room": 10
+    },
+    {
+      "Full_names": "Miguel Torres",
+      "years": 35,
+      "number": 306,
+      "entry_date": "2023-10-11",
+      "disease": "Gastritis",
+      "Doctor_charge": "Dr. Anderson",
+      "Day_in_hospital": 4,
+      "Number_room": 9
+    },
+    {
+      "Full_names": "Laura García",
+      "years": 47,
+      "number": 204,
+      "entry_date": "2023-10-13",
+      "disease": "Diabetes",
+      "Doctor_charge": "Dr. Brown",
+      "Day_in_hospital": 6,
+      "Number_room": 8
+    },
+    {
+      "Full_names": "Javier Martínez",
+      "years": 42,
+      "number": 303,
+      "entry_date": "2023-10-16",
+      "disease": "Bronquitis",
+      "Doctor_charge": "Dr. Clark",
+      "Day_in_hospital": 3,
+      "Number_room": 6
+    },
+    {
+      "Full_names": "Elena Vargas",
+      "years": 55,
+      "number": 102,
+      "entry_date": "2023-10-08",
+      "disease": "Dolor de espalda",
+      "Doctor_charge": "Dr. Turner",
+      "Day_in_hospital": 5,
+      "Number_room": 7
+    },
+    {
+      "Full_names": "Roberto Jiménez",
+      "years": 30,
+      "number": 401,
+      "entry_date": "2023-10-17",
+      "disease": "Migraña",
+      "Doctor_charge": "Dr. Adams",
+      "Day_in_hospital": 2,
+      "Number_room": 5
+    }
+  ]
+  

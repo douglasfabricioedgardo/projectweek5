@@ -1,0 +1,45 @@
+## LOCAL HOST
+Get http://localhost:8080/Hospital
+
+### contact by id GET
+Get http://localhost:8080/Hospital/652a4d840e927d6b6bfc0811
+
+
+###create contact
+POST /Hospital HTTP/1.1
+Host: localhost:8080
+Content-Type: application/json
+
+{
+  "Full_names": "Douglas Ramirez",
+  "years": 22,
+  "number": 102,
+  "entry_date": "2023-11-08",
+  "disease": "Fiebre",
+  "Doctor_charge": "Dr. Turner",
+  "Day_in_hospital": 13,
+  "Number_room": 3
+}
+
+### contact 
+
+PUT /Hospital/652a4d840e927d6b6bfc0811 HTTP/1.1
+Host: localhost:8080
+Content-Type: application/json
+
+{
+  "Full_names": "Juan Pérez",
+  "years": 45,
+  "number": 203,
+  "entry_date": "2023-10-14",
+  "disease": "Gripe",
+  "Doctor_charge": "Dr. Smith",
+  "Day_in_hospital": 5,
+  "Number_room": 2
+}
+
+### delete contact 
+DELETE http://localhost:8080/Hospital/652a4ec6024f461d1bc62c04
+
+
+
