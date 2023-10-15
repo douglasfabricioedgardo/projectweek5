@@ -3,4 +3,5 @@ const router = express.Router();
 
 router.use('/Hospital', require('./hospital'))
 
+router.use('/', require('./swagger'));
 module.exports = router;

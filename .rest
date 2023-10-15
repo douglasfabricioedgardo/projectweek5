@@ -73,7 +73,7 @@ Content-Type: application/json
 
 {
   "Full_names": "Juan Pérez",
-  "years": 79,
+  "years": 49,
   "number": 200,
   "entry_date": "2023-10-14",
   "disease": "Gripe",
@@ -83,5 +83,5 @@ Content-Type: application/json
 }
 
 ### delete contact 
-DELETE https://project5-l35t.onrender.com/Hospital/652a4ec6024f461d1bc62c04
+DELETE https://project5-l35t.onrender.com/Hospital/652a5ef4460ffe3dfd2eb4e1
 
