@@ -5,10 +5,10 @@
     "description": "Temple API",
     "version": "1.0.0"
   },
-  "host": "localhost:8080",
+  "host": "project5-l35t.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http"
+    "https"
   ],
   "paths": {
     "/Hospital/": {
