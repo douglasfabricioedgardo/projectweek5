@@ -2,7 +2,7 @@
 Get http://localhost:8080/Hospital
 
 ### contact by id GET
-Get http://localhost:8080/Hospital/652a4d840e927d6b6bfc0811
+Get http://localhost:8080/Hospital/652a4d840e927d6b6bfc0817
 
 
 ###create contact
@@ -12,7 +12,7 @@ Content-Type: application/json
 
 {
   "Full_names": "Douglas Ramirez",
-  "years": 22,
+  "years": 12,
   "number": 102,
   "entry_date": "2023-11-08",
   "disease": "Fiebre",

@@ -9,7 +9,7 @@ const saveContact = (req, res, next) => {
     disease: 'required|string',
     Doctor_charge: 'required|string',
     Day_in_hospital: 'required|numeric',
-    Number_room: 'required|string'
+    Number_room: 'required|numeric'
    
   };
   validator(req.body, validationRule, {}, (err, status) => {
