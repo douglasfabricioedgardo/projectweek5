@@ -5,8 +5,8 @@ const doc = {
     title: 'My API',
     description: 'Temple API'
   },
-  host: 'project5-l35t.onrender.com',
-  schemes: ['https']
+  host: 'localhost:8083',
+  schemes: ['http']
 };
 
 const outputFile = './swagger.json';
