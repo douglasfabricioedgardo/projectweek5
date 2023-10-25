@@ -5,7 +5,7 @@ const doc = {
     title: 'My API',
     description: 'Temple API'
   },
-  host: 'localhost:8083',
+  host: 'localhost:8080',
   schemes: ['http']
 };
 
