@@ -18,7 +18,7 @@ app
     console.log(process.stderr.fd, `Caught exception: ${err}\n` + `Exception origin: ${origin}`);
   });
   
-  
+                          
 
 mongodb.initDb((err, mongodb) => {
   if (err) {
