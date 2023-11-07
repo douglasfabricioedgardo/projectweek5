@@ -7,8 +7,6 @@ const security = require('../middleware/authorize.js');
 
 
 
-router.get('/', contactsController.getAll);
-
 router.get('/:id', security.checkLogin, contactsController.getSingle);
 
 router.post('/', security.checkLogin, validation.saveContact, contactsController.createHospital);

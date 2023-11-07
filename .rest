@@ -1,5 +1,4 @@
-## LOCAL HOST
-Get http://localhost:8080/Hospital
+
 
 ### contact by id GET
 Get http://localhost:8080/Hospital/652a4d840e927d6b6bfc0817
