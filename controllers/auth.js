@@ -3,8 +3,6 @@ const bcrypt = require('bcryptjs');
 const crypto = require('crypto');
 const { validationResult } = require('express-validator');
 
-// Import the user model.
-const User = require('../models/user');
 
 // The function delievers the login view.
 exports.getLogin = (req, res, next) => {
