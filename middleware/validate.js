@@ -8,7 +8,7 @@ const saveContact = (req, res, next) => {
     entry_date: 'required|string',
     disease: 'required|string',
     Doctor_charge: 'required|string',
-    Day_in_hospital: 'required|numeric',
+    Day_in_hospital: 'required|string',
     Number_room: 'required|numeric'
    
   };
