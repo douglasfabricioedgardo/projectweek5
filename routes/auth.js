@@ -4,7 +4,7 @@ const { check, body } = require('express-validator');
 
 // Import the auth controller and the user model.
 const authController = require('../controllers/auth');
-const User = require('../models/user');
+
 
 // Create the router.
 const router = express.Router();
