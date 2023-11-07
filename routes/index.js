@@ -26,6 +26,6 @@ router.get('/profile', requiresAuth(), (req, res) => {
 });
 
 
-router.use('/', require('./swagger'));
+router.use('/api-docs', require('./swagger'));
 router.use('/Hospital', require('./hospital'));
 module.exports = router;
