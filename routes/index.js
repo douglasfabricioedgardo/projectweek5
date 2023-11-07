@@ -2,26 +2,26 @@ require('dotenv').config();
 
 const express = require('express');
 const router = express.Router();
-const { auth } = require('express-openid-connect');
+const { auth,requiresAuth } = require('express-openid-connect');
 
 const config = {
     authRequired: false,
     auth0Logout: true,
-    secret: process.env.AUTH0_CLIENT_SECRET,
+    secret: process.env.SECRET,
     baseURL: process.env.BASE_URL,
-    clientID: process.env.AUTH0_CLIENT_ID,
-    issuerBaseURL: process.env.AUTH0_DOMAIN
+    clientID: process.env.HOSPITAL_CLIENT_ID,
+    issuerBaseURL: process.env.HOSPITAL_ISSUER_BASE_URL
   };
    router.use(auth(config));
   router.get('/', (req, res) => {
     res.send(req.oidc.isAuthenticated() ? 'Logged in' : 'Logged out');
   });
 
-router.get('/Hospital', (req, res) => {
+router.get('/profile', requiresAuth(), (req, res) => {
     // Requires authentication
-    if (!req.oidc.isAuthenticated()) {
-      return res.status(401).send('Not logged in');
-    }
+    //if (!req.oidc.isAuthenticated()) {
+      //return res.status(401).send('Not logged in');
+    //}
     res.send(JSON.stringify(req.oidc.user));
 });
 
