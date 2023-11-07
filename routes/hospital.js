@@ -4,14 +4,14 @@ const router = express.Router();
 const contactsController = require('../controllers/hospital');
 const validation = require('../middleware/validate');
 
-router.get('/', contactsController.getAll);
+router.get('/',isAuth, contactsController.getAll);
 
-router.get('/:id', contactsController.getSingle);
+router.get('/:id', isAuth, contactsController.getSingle);
 
-router.post('/', validation.saveContact, contactsController.createHospital);
+router.post('/', isAuth, validation.saveContact, contactsController.createHospital);
 
-router.put('/:id', validation.saveContact, contactsController.updateHospital);
+router.put('/:id', isAuth, validation.saveContact, contactsController.updateHospital);
 
-router.delete('/:id', contactsController.deleteHospital);
+router.delete('/:id', isAuth, contactsController.deleteHospital);
 
-module.exports = router;
+module.exports = router; 
